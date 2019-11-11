@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../image/dark-honeycomb.png);
+    background-repeat: repeat;
+}
+
+p {
+    color: lavenderblush;
+    line-height: 1.7em;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #fff, 0 0 30px #fff, 0 0 70px #E3E3C7, 0 0 80px #E3E3C7;
+
+}
+
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 30px #FFFFE0;
+    padding-top: 20px;
+    border-top: solid 1px #B59798;
+}
+
+footer {
+    border-top: solid 1px #B59798;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.beerheader {
+    -webkit-box-shadow: 1px 1px 5px 10px #FFFAE6;
+    box-shadow: 1px 1px 5px 10px #FFFAE6;
+}
+
+.imageFloat {
+    padding-right: 30px;
+    float: left;
+}
+
+/* NAVIGATION (ul, ul li, ul li a) */
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li:last-child {
+
+    background-color: #ff6347;
+}
+
+
+ul li a {
+    float: none;
+    position: relative;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li:last-child a:hover {
+    background-color: #111;
+}
+
+a:hover {
+    background-color: #ff6347;
+}
+
+#about {
+    padding-top: 40px;
+}
+
+#video {
+    padding-top: 40px;
+}
+
+#contact {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+form label {
+    color: lavenderblush;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+input {
+    font-size: 14px;
+    margin: 3px 0 15px 0;
+    padding: 10px 15px;
+    background-color: #535353;
+    color: lavenderblush;
+}
+
+input[type=submit] {
+    margin-top: 15px;
+    padding: 15px 35px;
+    border: 1px solid grey;
+    border-radius: 0px;
+    transition-duration: .5s;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background: #F8BA16;
+    transition-duration: .5s;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 400px;
+    transition: width 0.4s ease-in-out;
+     
+}
+
+input[type=text]:focus {
+    width: 700px;
+}
+
+input[type=email] {
+    box-sizing: border-box;
+    width: 400px;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+input[type=email]:focus {
+    width: 700px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 400px;
+    height: 10em;
+    transition: width 0.4s ease-in-out;
+    background-color: #535353;
+    color: lavenderblush;
+}
+
+textarea:focus {
+    width: 700px;
+    height: 10em;
+}
+
+::placeholder {
+    color: #ccc0c4;
+    opacity: 1;
+}
